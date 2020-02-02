@@ -11,7 +11,7 @@ public interface FoodApi {
     @GET("random.php")
     Call<Meals> getMeal();
 
-    @GET("categories")
+    @GET("categories.php")
     Call<Categories> getCategories();
 
 }
